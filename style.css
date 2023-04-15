@@ -1,0 +1,139 @@
+body{
+    background-color: #f0f0f0;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(91, 104, 173);
+}
+
+.container{
+    margin: 0 auto;
+    width: 950px;
+}
+
+.main{
+    margin-top:70px;
+}
+
+.main-left,.main-right{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.main-left{
+    width:60%;
+    padding-top: 20px;
+}
+.main-right{
+    width:39%;
+}
+
+.register-form,.switch-page{
+    box-shadow: 1px 1px 15px rgba(19, 19, 252, 0.434);
+    background-color: #fff;
+    border:1px solid rgb(217, 217, 217);
+    padding:40px
+}
+
+.register-form .logein-btn {
+    background-color:  #3a89ff;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 45px;
+    font-weight: bold;
+}
+
+.register-form .border-bottom{
+    border-bottom: 1px solid rgb(184, 184, 184);
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+.register-form .or-text{
+    display: inline-block;
+    background-color: #ffffff;
+    color: rgb(147, 147, 147);
+    margin: 10px;
+    position: relative;
+    bottom: 4px;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+.register-form form input{
+    display: block;
+    margin:0 auto;
+    width: 100%;
+    background-color:rgb(244, 244, 244);
+    padding:10px;
+    box-sizing: border-box;
+    border:1px solid rgb(226, 226, 226);
+    margin-bottom: 6px;
+    border-radius: 2px;
+    outline: none;
+}
+
+.register-form form input:last-of-type{
+    background-color: #3a89ff;
+    color: #fff;
+    border-radius: 5px;
+    margin-top:15px;
+    font-weight: bold;
+}
+
+.register-form .p-firstoftype{
+    font-size:19px;
+    font-weight: bold;
+    color:rgb(172, 172, 172)
+}
+
+.register-form p a {
+    font-weight: bold;
+}
+
+.register-form .last-paragraph{
+    color: rgb(110, 110, 110);
+}
+
+.switch-page{
+    padding:20px;
+}
+
+.main-right div{
+    margin-bottom: 10px;
+}
+
+.app-links img{
+    width: 170px;
+}
+
+.main-left img{
+    width: 100%;
+}
+
+.footer div{
+    text-align: center;
+}
+
+.footer a{
+    margin-right: 10px;
+}
+
+.footer-mainlinks{
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.footer-seclinks{
+    margin-bottom: 20px;
+}
+
+.footer-copyright span{
+    color:rgb(133, 133, 133)
+}
